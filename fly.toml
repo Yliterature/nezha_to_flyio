@@ -4,6 +4,10 @@ primary_region = 'hkg'
 [build]
   dockerfile = "Dockerfile"
 
+[mounts]
+  source = "nezhe_data"
+  destination = "/dashboard/data"
+
 [env]
 
 [http_service]

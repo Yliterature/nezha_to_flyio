@@ -2,7 +2,7 @@ app = 'ioi'
 primary_region = 'hkg'
 
 [build]
-  image = "Dockerfile"
+  dockerfile = "Dockerfile"
 
 [env]
 
